@@ -1,3 +1,5 @@
+// Menu nya pakai Hydrated jadi kalau ada yang ga work bisa ganti aja ke yang biasa
+
 import db from '../lib/database.js'
 import { promises } from 'fs'
 import { join } from 'path'
@@ -52,6 +54,28 @@ const defaultMenu = {
   body: '│ • %cmd %islimit %isPremium',
   footer: '╰────\n',
   after: `
+┌─「 *BIG THANKS TO* 」
+│⬡ Allah SWT
+│⬡ Adiwajshing
+│⬡ Nurutomo as wabot-aq
+│⬡ Istikmal as BochilGaming 
+│⬡ Ariffb as stikerin
+│⬡ TioXd as BOTCAHX ( My Team )
+│⬡ Mursid Xml
+│⬡ Aguz Familia as Family-Bot
+│⬡ Ziv San as HAORI-MD ( My Team )
+│⬡ The.sad.boy01 My Team
+│⬡ Mark as Kurukuu-MD ( My Team )
+│⬡ Rasell Comel
+│⬡ Nayla Hanifah My Support
+│⬡ Amirul Dev
+│⬡ X-Team
+│⬡ Syahrul
+│⬡ Aniq12
+│⬡ Krizyn_ofc
+│⬡ All Creator Bot 
+└───────────⬣
+
 *%npmname* | %version
 ${'```%npmdesc```'}
 `,
